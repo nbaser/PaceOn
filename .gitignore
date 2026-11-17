@@ -1,0 +1,32 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependencies
+node_modules
+
+# Build output
+dist
+dist-ssr
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# local env
+.env
+.env.local
+
+# private project files / real personal training data (not for public repo)
+/zepp data/
+/files/
+/files.zip
+.claude/settings.local.json
